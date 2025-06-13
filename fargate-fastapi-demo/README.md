@@ -5,10 +5,8 @@ This project demonstrates how to deploy a FastAPI application on AWS Fargate wit
 ## Project Structure
 
 - `main.py` - FastAPI application
-- `Dockerfile` - Original Dockerfile
-- `Dockerfile.newrelic` - Dockerfile with New Relic agent integration
-- `requirements.txt` - Original dependencies
-- `requirements.newrelic.txt` - Dependencies including New Relic
+- `Dockerfile` - Original Dockerfile 
+- `requirements.txt` - Original dependencies 
 - `fargate-cfn.yaml` - CloudFormation template for Fargate deployment
 
 ## Deployment Steps
